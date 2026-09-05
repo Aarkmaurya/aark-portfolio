@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aark Maurya — Developer</title>
+  <meta name="description" content="Aark Maurya — Developer, cybersecurity enthusiast, and builder. Portfolio, projects, and current work." />
+
+  <!-- ============================================================
+       EDIT ME: change favicon / social preview details here if you
+       add an image file later. No external image is used by default.
+     ============================================================ -->
+
+  <!-- Fonts: JetBrains Mono for headings/labels, Inter for body text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Skip link for keyboard / screen reader users -->
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="nav" id="nav">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">aark<span class="dim">.</span>maurya</a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="navMenu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav-menu" id="navMenu">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#learning" class="nav-link">Learning</a>
+        <a href="#github" class="nav-link">GitHub</a>
+        <a href="#contact" class="nav-link nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <p class="hero-kicker" aria-hidden="true">$ whoami</p>
+
+        <h1 class="hero-title">
+          Hi, I'm <span class="accent">Aark Maurya</span>
+        </h1>
+
+        <p class="hero-role">Developer &nbsp;•&nbsp; Cybersecurity Enthusiast &nbsp;•&nbsp; Builder</p>
+
+        <!-- EDIT ME: replace with your own short intro if you'd like to change the wording -->
+        <p class="hero-intro">
+          I build software close to the metal — from Android apps to
+          low-level systems — and share what I learn along the way.
+          Currently focused on operating systems, C, and security fundamentals.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="https://github.com/Aarkmaurya" class="btn btn-outline" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section" id="about">
+      <div class="section-inner">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-grid">
+          <div class="about-text">
+            <!-- EDIT ME: this is your bio. Replace freely — keep it factual. -->
+            <p>
+              I'm an independent developer working on Android applications,
+              educational tech content, and low-level operating systems
+              projects. I like understanding how things work at the
+              foundation — from how an app talks to hardware, to how a
+              kernel boots — and I build things from scratch rather than
+              relying on existing frameworks whenever I can.
+            </p>
+            <p>
+              I create content to share what I learn, with a particular
+              interest in making technical topics accessible. Right now,
+              most of my energy goes into systems programming and
+              cybersecurity fundamentals.
+            </p>
+
+            <!-- Placeholder area for facts you haven't provided yet.
+                 Delete or fill in as needed. -->
+            <ul class="about-facts">
+              <li><span class="fact-label">Based in</span> <span class="fact-value">[ADD LOCATION]</span></li>
+              <li><span class="fact-label">Focus</span> <span class="fact-value">Android development, systems programming, security</span></li>
+              <li><span class="fact-label">Currently building</span> <span class="fact-value">Nova OS — an original mobile OS from scratch</span></li>
+            </ul>
+          </div>
+
+          <div class="about-panel" aria-hidden="true">
+            <div class="panel-header">
+              <span class="dot"></span><span class="dot"></span><span class="dot"></span>
+              <span class="panel-title">about.md</span>
+            </div>
+            <pre class="panel-body"><code>name:      Aark Maurya
+role:      Developer
+interests: [Android, OS Dev, Security]
+status:    Building & learning
+site:      aarkmaurya.dpdns.org</code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="section section-alt" id="skills">
+      <div class="section-inner">
+        <h2 class="section-title">Skills</h2>
+
+        <!-- EDIT ME: add/remove skills or categories freely -->
+        <div class="skills-grid">
+
+          <div class="skill-group">
+            <h3 class="skill-group-title">Languages</h3>
+            <ul class="skill-list">
+              <li>Java / Kotlin (Android)</li>
+              <li>C</li>
+              <li>JavaScript</li>
+              <li>HTML5 &amp; CSS3</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group-title">Platforms &amp; Tools</h3>
+            <ul class="skill-list">
+              <li>Android SDK</li>
+              <li>Git &amp; GitHub</li>
+              <li>Linux</li>
+              <li>[ADD TOOL]</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group-title">Systems &amp; Security</h3>
+            <ul class="skill-list">
+              <li>Operating systems fundamentals</li>
+              <li>Low-level C (pointers, memory, structs)</li>
+              <li>x86 Assembly <span class="tag-learning">learning</span></li>
+              <li>Cybersecurity fundamentals</li>
+            </ul>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-group-title">Other</h3>
+            <ul class="skill-list">
+              <li>Technical content creation</li>
+              <li>[ADD SKILL]</li>
+              <li>[ADD SKILL]</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section class="section" id="projects">
+      <div class="section-inner">
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">
+          A selection of things I've built. Replace these cards with your
+          real projects — placeholders are marked clearly below.
+        </p>
+
+        <div class="projects-grid">
+
+          <!-- PROJECT CARD TEMPLATE — duplicate this block for each project -->
+          <article class="project-card">
+            <div class="project-card-head">
+              <h3 class="project-name">Nova OS</h3>
+              <span class="project-status">in progress</span>
+            </div>
+            <p class="project-desc">
+              An original mobile operating system built from scratch,
+              without Android or Linux as a base. Currently in the early
+              phase: building and testing in a virtual machine before
+              moving to real hardware.
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">C</span>
+              <span class="tech-pill">x86 Assembly</span>
+              <span class="tech-pill">QEMU</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Aarkmaurya" target="_blank" rel="noopener noreferrer" class="btn btn-small">GitHub</a>
+            </div>
+          </article>
+
+          <!-- PLACEHOLDER PROJECT — replace with a real project -->
+          <article class="project-card">
+            <div class="project-card-head">
+              <h3 class="project-name">[PROJECT NAME]</h3>
+              <span class="project-status">[status]</span>
+            </div>
+            <p class="project-desc">
+              [Add a short description of this project — what it does and
+              why you built it.]
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">[Tech]</span>
+              <span class="tech-pill">[Tech]</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small">GitHub</a>
+              <a href="#" class="btn btn-small btn-ghost">Live Demo</a>
+            </div>
+          </article>
+
+          <!-- PLACEHOLDER PROJECT — replace with a real project -->
+          <article class="project-card">
+            <div class="project-card-head">
+              <h3 class="project-name">[PROJECT NAME]</h3>
+              <span class="project-status">[status]</span>
+            </div>
+            <p class="project-desc">
+              [Add a short description of this project — what it does and
+              why you built it.]
+            </p>
+            <div class="project-tech">
+              <span class="tech-pill">[Tech]</span>
+              <span class="tech-pill">[Tech]</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="btn btn-small">GitHub</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= LEARNING / CURRENT FOCUS ================= -->
+    <section class="section section-alt" id="learning">
+      <div class="section-inner">
+        <h2 class="section-title">Learning / Current Focus</h2>
+        <p class="section-subtitle">What I'm actively working on right now.</p>
+
+        <div class="learning-list">
+          <div class="learning-item">
+            <span class="learning-marker">→</span>
+            <div>
+              <h3 class="learning-name">C for systems programming</h3>
+              <p class="learning-desc">Pointers, bitwise operations, and packed structs — the fundamentals needed for OS-level work.</p>
+            </div>
+          </div>
+
+          <div class="learning-item">
+            <span class="learning-marker">→</span>
+            <div>
+              <h3 class="learning-name">x86 Assembly</h3>
+              <p class="learning-desc">Next step after C, as part of the toolchain for building Nova OS from scratch.</p>
+            </div>
+          </div>
+
+          <div class="learning-item">
+            <span class="learning-marker">→</span>
+            <div>
+              <h3 class="learning-name">OS dev toolchain</h3>
+              <p class="learning-desc">Setting up QEMU, NASM, and a cross-compiler to build and test in a virtual environment.</p>
+            </div>
+          </div>
+
+          <div class="learning-item">
+            <span class="learning-marker">→</span>
+            <div>
+              <h3 class="learning-name">[ADD TOPIC]</h3>
+              <p class="learning-desc">[Add a short description.]</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GITHUB ================= -->
+    <section class="section" id="github">
+      <div class="section-inner">
+        <h2 class="section-title">GitHub</h2>
+
+        <div class="github-panel">
+          <div class="github-info">
+            <p>
+              Most of my work-in-progress and open projects live on GitHub.
+              Check out my repositories, contributions, and activity.
+            </p>
+            <a href="https://github.com/Aarkmaurya" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+              @Aarkmaurya on GitHub
+            </a>
+          </div>
+
+          <!--
+            OPTIONAL: GitHub stats card (external image, hosted by
+            github-readme-stats). This is NOT a copyrighted image — it's a
+            live-generated SVG stats card. It requires internet access to
+            load. Comment out the block below if you prefer not to use any
+            external service.
+          -->
+          <div class="github-stats" id="githubStats">
+            <img
+              src="https://github-readme-stats.vercel.app/api?username=Aarkmaurya&show_icons=true&theme=transparent&hide_border=true&title_color=7fb8a3&icon_color=7fb8a3&text_color=e8ecef"
+              alt="Aark Maurya's GitHub stats"
+              loading="lazy"
+              width="450"
+              height="180"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="section section-alt" id="contact">
+      <div class="section-inner">
+        <h2 class="section-title">Contact</h2>
+        <p class="section-subtitle">
+          Have a project, question, or just want to say hi? Reach out.
+        </p>
+
+        <!--
+          NOTE: This is a static site with no backend, so the form below
+          cannot send email on its own — it opens the visitor's email
+          client via a mailto: link (see script.js). The cards beneath it
+          are direct, always-available contact links.
+        -->
+        <div class="contact-grid">
+          <form class="contact-form" id="contactForm" novalidate>
+            <label class="form-label" for="name">Name</label>
+            <input class="form-input" type="text" id="name" name="name" required autocomplete="name" />
+
+            <label class="form-label" for="email">Email</label>
+            <input class="form-input" type="email" id="email" name="email" required autocomplete="email" />
+
+            <label class="form-label" for="message">Message</label>
+            <textarea class="form-input" id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="btn btn-primary form-submit">Send Message</button>
+            <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="contact-links">
+            <div class="contact-link">
+              <span class="contact-link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <rect x="2.5" y="4.5" width="19" height="15" rx="2"></rect>
+                  <path d="M3 6.5l9 6 9-6"></path>
+                </svg>
+              </span>
+              <span class="contact-link-text">
+                <span class="contact-link-label">Email</span>
+                <span class="contact-link-value">nexoratechnologies57@gmail.com</span>
+              </span>
+              <a class="btn btn-small contact-link-action" href="mailto:nexoratechnologies57@gmail.com" aria-label="Send an email to nexoratechnologies57@gmail.com">Send Email</a>
+            </div>
+
+            <div class="contact-link">
+              <span class="contact-link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+                  <circle cx="12" cy="12" r="4"></circle>
+                  <circle cx="17.2" cy="6.8" r="1" fill="currentColor" stroke="none"></circle>
+                </svg>
+              </span>
+              <span class="contact-link-text">
+                <span class="contact-link-label">Instagram</span>
+                <span class="contact-link-value">@aark_maurya_001</span>
+              </span>
+              <a class="btn btn-small contact-link-action" href="https://www.instagram.com/aark_maurya_001/" target="_blank" rel="noopener noreferrer" aria-label="View Aark Maurya's Instagram profile (opens in a new tab)">Instagram Profile</a>
+            </div>
+
+            <div class="contact-link">
+              <span class="contact-link-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M12 0.5C5.4 0.5 0 5.9 0 12.5c0 5.3 3.4 9.8 8.2 11.4 0.6 0.1 0.8-0.3 0.8-0.6v-2.1c-3.3 0.7-4-1.6-4-1.6-0.5-1.4-1.3-1.8-1.3-1.8-1.1-0.7 0.1-0.7 0.1-0.7 1.2 0.1 1.8 1.2 1.8 1.2 1.1 1.8 2.8 1.3 3.5 1 0.1-0.8 0.4-1.3 0.7-1.6-2.6-0.3-5.4-1.3-5.4-5.9 0-1.3 0.5-2.4 1.2-3.2-0.1-0.3-0.5-1.5 0.1-3.2 0 0 1-0.3 3.3 1.2 1-0.3 2-0.4 3-0.4s2 0.1 3 0.4c2.3-1.5 3.3-1.2 3.3-1.2 0.6 1.7 0.2 2.9 0.1 3.2 0.8 0.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.6-5.5 5.9 0.4 0.4 0.8 1.1 0.8 2.2v3.3c0 0.3 0.2 0.7 0.8 0.6C20.6 22.3 24 17.8 24 12.5 24 5.9 18.6 0.5 12 0.5z"></path>
+                </svg>
+              </span>
+              <span class="contact-link-text">
+                <span class="contact-link-label">GitHub</span>
+                <span class="contact-link-value">github.com/Aarkmaurya</span>
+              </span>
+              <a class="btn btn-small contact-link-action" href="https://github.com/Aarkmaurya" target="_blank" rel="noopener noreferrer" aria-label="View Aark Maurya's GitHub profile (opens in a new tab)">GitHub Profile</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>&copy; <span id="year"></span> Aark Maurya. Built with HTML, CSS &amp; JavaScript.</p>
+      <a href="#home" class="footer-top">Back to top ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
